@@ -1,0 +1,73 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<!--
+<div class="box">
+<ion-list>
+
+
+
+
+  <ion-item>
+    <ion-label floating>Phone number</ion-label>
+    <ion-input type="number" #email></ion-input>
+   </ion-item>
+
+
+
+   <ion-item>
+    <ion-label floating>Password</ion-label>
+    <ion-input type="password" #password ></ion-input>
+   </ion-item>
+</ion-list>
+</div>
+<div padding>
+<button ion-button color="green" class="button" (click)="navpage()"> Proceed </button>
+</div>
+
+
+	<span style ="font-size:20px;">Click down to signup</span>
+	<button ion-button (click)="sample()" color="green">
+	Signup	
+	</button>
+  -->
+  <div class="container">
+      <div class="row">
+        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+          <div class="card card-signin my-5">
+            <div class="card-body">
+              <h5 class="card-title text-center">Sign In</h5>
+              <form class="form-signin">
+                <div class="form-label-group">
+                  <ion-input type="number" #phone id="inputEmail" class="form-control" placeholder="Phone Number" required autofocus></ion-input>
+                  <label for="inputEmail">Phone Number</label>
+                </div>
+  
+                <div class="form-label-group">
+                  <ion-input type="password" #pass id="inputPassword" class="form-control" placeholder="Password" required></ion-input>
+                  <label for="inputPassword">Password</label>
+                </div>
+  
+                <div class="custom-control custom-checkbox mb-3">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1">
+                  <label class="custom-control-label" for="customCheck1">Remember password</label>
+                </div>
+                <button ion-button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" (click)="navpag()">Sign in</button>
+                <hr class="my-4">
+                <button ion-button style="color: tomato" class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" (click)="navpage()">register</button>
+        
+                <hr class="my-4">
+                   </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</ion-content>
